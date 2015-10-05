@@ -14,6 +14,11 @@
 		907134ED1BB74F120011650C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 907134EB1BB74F120011650C /* LaunchScreen.storyboard */; };
 		907134F81BB74F120011650C /* QuizAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 907134F71BB74F120011650C /* QuizAppTests.swift */; };
 		907135031BB74F120011650C /* QuizAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 907135021BB74F120011650C /* QuizAppUITests.swift */; };
+		90812B971BBF172000BB780C /* textQuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90812B961BBF172000BB780C /* textQuestionViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		90812B991BBF1CAA00BB780C /* textQuestion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90812B981BBF1CAA00BB780C /* textQuestion.swift */; settings = {ASSET_TAGS = (); }; };
+		90812B9D1BBF295100BB780C /* ResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90812B9C1BBF295100BB780C /* ResultsViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		90812B9F1BBF2D4900BB780C /* imageQuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90812B9E1BBF2D4900BB780C /* imageQuestionViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		90812BA11BBF4D5D00BB780C /* the-godfather-1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 90812BA01BBF4D5D00BB780C /* the-godfather-1.jpg */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +52,11 @@
 		907134FE1BB74F120011650C /* QuizAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuizAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		907135021BB74F120011650C /* QuizAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizAppUITests.swift; sourceTree = "<group>"; };
 		907135041BB74F120011650C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		90812B961BBF172000BB780C /* textQuestionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = textQuestionViewController.swift; sourceTree = "<group>"; };
+		90812B981BBF1CAA00BB780C /* textQuestion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = textQuestion.swift; sourceTree = "<group>"; };
+		90812B9C1BBF295100BB780C /* ResultsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultsViewController.swift; sourceTree = "<group>"; };
+		90812B9E1BBF2D4900BB780C /* imageQuestionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = imageQuestionViewController.swift; sourceTree = "<group>"; };
+		90812BA01BBF4D5D00BB780C /* the-godfather-1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "the-godfather-1.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +107,17 @@
 		907134E11BB74F120011650C /* QuizApp */ = {
 			isa = PBXGroup;
 			children = (
+				90812BA01BBF4D5D00BB780C /* the-godfather-1.jpg */,
 				907134E21BB74F120011650C /* AppDelegate.swift */,
 				907134E41BB74F120011650C /* ViewController.swift */,
 				907134E61BB74F120011650C /* Main.storyboard */,
 				907134E91BB74F120011650C /* Assets.xcassets */,
 				907134EB1BB74F120011650C /* LaunchScreen.storyboard */,
 				907134EE1BB74F120011650C /* Info.plist */,
+				90812B961BBF172000BB780C /* textQuestionViewController.swift */,
+				90812B981BBF1CAA00BB780C /* textQuestion.swift */,
+				90812B9C1BBF295100BB780C /* ResultsViewController.swift */,
+				90812B9E1BBF2D4900BB780C /* imageQuestionViewController.swift */,
 			);
 			path = QuizApp;
 			sourceTree = "<group>";
@@ -230,6 +245,7 @@
 			files = (
 				907134ED1BB74F120011650C /* LaunchScreen.storyboard in Resources */,
 				907134EA1BB74F120011650C /* Assets.xcassets in Resources */,
+				90812BA11BBF4D5D00BB780C /* the-godfather-1.jpg in Resources */,
 				907134E81BB74F120011650C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -256,6 +272,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				907134E51BB74F120011650C /* ViewController.swift in Sources */,
+				90812B971BBF172000BB780C /* textQuestionViewController.swift in Sources */,
+				90812B991BBF1CAA00BB780C /* textQuestion.swift in Sources */,
+				90812B9D1BBF295100BB780C /* ResultsViewController.swift in Sources */,
+				90812B9F1BBF2D4900BB780C /* imageQuestionViewController.swift in Sources */,
 				907134E31BB74F120011650C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -483,6 +503,7 @@
 				907135091BB74F120011650C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9071350A1BB74F120011650C /* Build configuration list for PBXNativeTarget "QuizAppTests" */ = {
 			isa = XCConfigurationList;
@@ -491,6 +512,7 @@
 				9071350C1BB74F120011650C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9071350D1BB74F120011650C /* Build configuration list for PBXNativeTarget "QuizAppUITests" */ = {
 			isa = XCConfigurationList;
@@ -499,6 +521,7 @@
 				9071350F1BB74F120011650C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
